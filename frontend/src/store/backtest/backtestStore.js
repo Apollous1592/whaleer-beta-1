@@ -70,7 +70,7 @@ const useBacktestStore = create((set, get) => ({
         returns: backtestResults.returns || [],
       };
       set({ isArchiveLoading: false});
-      console.log("Arşivlenen backdfsdfsdfsdtest:", archivedItem);
+      console.log("Arşivlenen backtest:", archivedItem);
       set({
         archivedBacktests: [archivedItem, ...archivedBacktests],
       });
